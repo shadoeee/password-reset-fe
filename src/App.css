@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+  background-image: url(./assets/pexels-simon-berger-1323550.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.signin {
+  height: 380px;
+}
+
+.signup {
+  height: 460px;
+}
+
+.card-header h3 {
+  color: #FFC312;
+  font-weight: bold;
+}
+
+.labels {
+  color: #FFC312;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn {
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+  color: #FFC312;
+  text-decoration: none
+}
+
+.links a:hover{
+  margin-left: 4px;
+  color: darkorange;
+}
